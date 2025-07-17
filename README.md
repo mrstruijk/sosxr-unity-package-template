@@ -2,12 +2,12 @@
 
 ## Problem
 
-Unity doesn't track `~` (tilde) folders, so you can't get there in the Editor.
+Unity doesn't show `~` (tilde) folders, so you can't get there in the Editor.
 
 ## Solution
 
 You need a local folder that is visible inside Unity, and not tracked by git.
-You can do this by [symlinking]() from your `Samples~` folder to another folder without the `~` in the name. This template is setup to work with a folder called `InEditorSamples`, and below is how you simultaneously create and symlink to it. 
+You can do this by [symlinking](https://docs.unity.com/ugs/en-us/manual/devops/manual/symlink-support) from your `Samples~` folder to another folder without the `~` in the name. This template is setup to work with a folder called `InEditorSamples`, and below is how you simultaneously create and symlink to it. 
 
 ```bash
 cd /ToFolder/OfPackage/
