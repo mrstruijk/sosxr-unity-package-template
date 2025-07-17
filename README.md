@@ -34,18 +34,74 @@ InEditorSamples.meta
 ----
 
 
+# README template:
+
 # Repo Name
 
 - By: 
 - For: Leiden University SOSXR
 - Fully open source: Feel free to add to, or modify, anything you see fit.
 
-## Installation
+
+Simple overview of use/purpose.
+
+## Description
+
+An in-depth paragraph about your project and overview of use.
+
+## Getting Started
+### Installation
 
 1. Open the Unity project you want to install this package in.
 2. Open the Package Manager window.
 3. Click on the `+` button and select `Add package from git URL...`.
 4. Paste the URL of this repo into the text field and press `Add`. Make sure it ends with `.git`.
 
-## Dependency
-Depends on [EnhancedLogger](https://github.com/solo-fsw/sosxr-unity-enhancedlogger)
+### Dependency
+1. Minimum Unity version
+2. Depends on [EnhancedLogger](https://github.com/solo-fsw/sosxr-unity-enhancedlogger)
+3. 
+
+### Executing program
+
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
+
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+
+## Authors
+
+Contributors names and contact info
+
+
+## Version History
+
+* 0_0_2
+    * Various bug fixes and optimizations
+    * See [commit change]() or See [release history]()
+* 0_0_1
+    * Initial Release
+
+See the CHANGELOG.md for more details.
+
+
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+
