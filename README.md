@@ -1,4 +1,31 @@
-# Repo
+# Regarding this template:
+
+## Problem
+
+Unity doesn't track `~` (tilde) folders, so you can't get there in the Editor.
+
+## Solution
+
+You need a local folder that is visible inside Unity, and not tracked by git.
+You can do this by [symlinking]() from your `Samples~` folder to another folder without the `~` in the name. This template is setup to work with a folder called `InEditorSamples`, and below is how you simultaneously create and symlink to it. 
+
+```bash
+cd /ToFolder/OfPackage/
+
+ln -s Samples~ InEditorSamples # Will create a symlinked folder called InEditorSamples
+```
+
+In a `.gitignore` track the folder and it's `.meta` so they don’t get added to the repo:
+
+```bash 
+InEditorSamples
+InEditorSamples.meta
+```
+
+----
+
+
+# Repo Name
 
 - By: 
 - For: Leiden University SOSXR
