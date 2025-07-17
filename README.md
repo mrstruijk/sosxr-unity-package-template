@@ -1,3 +1,12 @@
+# Packages in Unity
+
+For more information on how to create packages and structure their directory formatting, see the resources below.
+[Unity Documentation](https://docs.unity3d.com/6000.1/Documentation/Manual/CustomPackages.html)
+[YouTube tutorial by 'git-amend'](https://www.youtube.com/watch?v=f2xW24xyDEg&t=190s)
+
+
+----
+
 # Regarding this template:
 
 ## Problem
